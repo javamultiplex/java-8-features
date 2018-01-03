@@ -5,11 +5,10 @@ interface abc {
 }
 
 /*
- * Inside lambda expression we can’t declare instance variables. Whatever the
- * variables declare inside lambda expression are simply acts as local variables
- * Within lambda expression ‘this” keyword represents current outer class object
- * reference (that is current enclosing class reference in which we declare
- * lambda expression)
+ * 1. Inside lambda expression we can’t declare instance variables. 
+ * 2. Whatever the variables declare inside lambda expression are simply acts as local variables
+ * 3. Within lambda expression ‘this” keyword represents current outer class object
+ * reference (that is current enclosing class reference in which we declare lambda expression)
  * 
  */
 public class Example7 {
